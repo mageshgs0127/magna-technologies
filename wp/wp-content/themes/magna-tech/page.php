@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="site-main"><section class="section"><div class="container"><div class="section-head"><div class="eyebrow-text">MAGNA Tech</div><h1><?php the_title(); ?></h1></div><article class="glass card" style="margin-top:32px"><?php while(have_posts()): the_post(); the_content(); endwhile; ?></article></div></section></main><?php get_footer(); ?>
